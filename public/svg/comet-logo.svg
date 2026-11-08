@@ -1,0 +1,42 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="cometHead" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#7E22CE" />
+    </radialGradient>
+
+    <linearGradient id="cometTail" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0" />
+      <stop offset="30%" stop-color="#3B82F6" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#E9D5FF" stop-opacity="1" />
+    </linearGradient>
+
+    <linearGradient id="dustTrail" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0" />
+      <stop offset="60%" stop-color="#EC4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0.7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Sweeping Comet Tail -->
+  <path d="M 10 54 C 24 44, 38 30, 52 12 C 42 26, 28 40, 10 54 Z" fill="url(#cometTail)" />
+
+  <!-- Secondary Dust Wing -->
+  <path d="M 14 56 C 28 48, 42 36, 54 18 C 46 30, 32 44, 14 56 Z" fill="url(#dustTrail)" />
+
+  <!-- Speed lines / Star particles -->
+  <circle cx="18" cy="48" r="1.2" fill="#E9D5FF" opacity="0.8" />
+  <circle cx="26" cy="40" r="1.5" fill="#38BDF8" opacity="0.9" />
+  <circle cx="34" cy="30" r="1.2" fill="#F472B6" opacity="0.7" />
+  <circle cx="44" cy="20" r="1" fill="#FFFFFF" opacity="0.9" />
+
+  <!-- Glowing Outer Halo for Comet Head -->
+  <circle cx="52" cy="12" r="8" fill="#A855F7" opacity="0.35" />
+  <circle cx="52" cy="12" r="5" fill="#38BDF8" opacity="0.6" />
+
+  <!-- Comet Nucleus -->
+  <circle cx="52" cy="12" r="3.5" fill="url(#cometHead)" />
+  <circle cx="51" cy="11" r="1.2" fill="#FFFFFF" />
+</svg>

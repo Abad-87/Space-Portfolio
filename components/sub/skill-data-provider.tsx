@@ -30,6 +30,8 @@ export const SkillDataProvider = ({
 
   const animationDelay = 0.1;
 
+  const imageSrc = src.startsWith("/") ? src : `/svg/${src}`;
+
   return (
     <motion.div
       ref={ref}
@@ -39,7 +41,7 @@ export const SkillDataProvider = ({
       custom={index}
       transition={{ delay: index * animationDelay }}
     >
-      <Image src={`/skills/${src}`} width={width} height={height} alt={name} />
+      <Image src={imageSrc} width={width} height={height} alt={name} className="w-auto h-auto object-contain" />
     </motion.div>
   );
 };

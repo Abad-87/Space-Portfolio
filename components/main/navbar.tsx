@@ -14,22 +14,26 @@ export const Navbar = () => {
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Logo + Name */}
         <Link
-          href="#about-me"
-          className="flex items-center"
+          href="#home"
+          className="flex items-center gap-3 group cursor-pointer"
         >
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={70}
-            height={70}
-            draggable={false}
-            className="cursor-pointer"
-          />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="relative w-10 h-10 md:w-11 md:h-11 flex items-center justify-center overflow-hidden rounded-full border border-purple-500/30 bg-[#030014]/50 backdrop-blur-sm shadow-md shadow-purple-500/20 group-hover:border-purple-500/70 group-hover:shadow-purple-500/40 transition-all duration-300">
+            <Image
+              src="/Images/logo.png"
+              alt="Syed Abad Mustafa Logo"
+              width={44}
+              height={44}
+              priority
+              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div className="hidden md:flex font-bold text-gray-200 group-hover:text-purple-300 transition-colors duration-300">
+            Syed Abad Mustafa
+          </div>
         </Link>
 
         {/* Web Navbar */}
-        <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
+        <div className="hidden md:flex w-[700px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             {NAV_LINKS.map((link) => (
               <Link
@@ -41,15 +45,7 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* Source Code */}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
-            >
-              Source Code
-            </Link>
+
           </div>
         </div>
 
@@ -91,15 +87,7 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Source Code
-            </Link>
+
           </div>
 
           {/* Social Icons */}

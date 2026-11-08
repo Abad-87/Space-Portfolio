@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: var(--font-body), 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .font-headline {
+  font-family: var(--font-headline), 'Cormorant Garamond', serif;
+}
+
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
@@ -65,4 +73,20 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Completely hide Netlify Preview Drawer and Issues widgets */
+iframe[src*="netlify"],
+iframe[id*="netlify"],
+iframe[class*="netlify"],
+div[id*="netlify"],
+div[class*="netlify"],
+#netlify-drawer-root, 
+.netlify-drawer-container, 
+[id^="netlify-"], 
+[class^="netlify-"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }

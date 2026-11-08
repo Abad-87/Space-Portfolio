@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        headline: ['var(--font-headline)', 'Cormorant Garamond', 'serif'],
+        serif: ['var(--font-headline)', 'Cormorant Garamond', 'serif'],
+        cormorant: ['var(--font-headline)', 'Cormorant Garamond', 'serif'],
+        body: ['var(--font-body)', 'Plus Jakarta Sans', 'sans-serif'],
+        sans: ['var(--font-body)', 'Plus Jakarta Sans', 'sans-serif'],
+        jakarta: ['var(--font-body)', 'Plus Jakarta Sans', 'sans-serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

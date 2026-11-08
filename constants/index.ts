@@ -1,169 +1,82 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
 
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
+    skill_name: "Python",
+    image: "python.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "SQL",
+    image: "mysql-icon.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "Power BI",
+    image: "power-bi-icon.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "Excel",
+    image: "excel.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
+    skill_name: "Azure",
+    image: "azure.svg",
     width: 80,
     height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://linkedin.com/in/abadmustafa/",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/Abad-87",
   },
 ] as const;
 
 export const FRONTEND_SKILL = [
   {
-    skill_name: "HTML",
-    image: "html.png",
+    skill_name: "Matplotlib",
+    image: "Matplotlib.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "Seaborn",
+    image: "seaborn.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "Power BI",
+    image: "power-bi-icon.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Material UI",
-    image: "mui.png",
+    skill_name: "Excel",
+    image: "excel.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "Figma",
+    image: "Figma.svg",
     width: 80,
     height: 80,
   },
@@ -171,50 +84,26 @@ export const FRONTEND_SKILL = [
 
 export const BACKEND_SKILL = [
   {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "Python",
+    image: "python.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express.js",
-    image: "express.png",
+    skill_name: "SQL",
+    image: "mysql-icon.svg",
     width: 80,
     height: 80,
   },
   {
     skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    image: "mongodb.svg",
+    width: 80,
+    height: 80,
   },
   {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
+    skill_name: "Apache Spark",
+    image: "Apache_Spark_logo.svg",
     width: 80,
     height: 80,
   },
@@ -222,62 +111,124 @@ export const BACKEND_SKILL = [
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
+    skill_name: "Pandas",
+    image: "Pandas.svg",
+    width: 75,
+    height: 75,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
+    skill_name: "NumPy",
+    image: "numpy.svg",
+    width: 75,
+    height: 75,
   },
   {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
+    skill_name: "Scikit-learn",
+    image: "scikit-learn.svg",
+    width: 80,
+    height: 80,
   },
-
   {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
+    skill_name: "Jupyter",
+    image: "jupyter.svg",
+    width: 75,
+    height: 75,
+  },
+  {
+    skill_name: "Google Colab",
+    image: "colab.svg",
+    width: 75,
+    height: 75,
   },
 ] as const;
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    skill_name: "Azure",
+    image: "azure.svg",
+    width: 75,
+    height: 75,
+  },
+  {
+    skill_name: "Git",
+    image: "Git.svg",
+    width: 75,
+    height: 75,
+  },
+  {
+    skill_name: "GitHub",
+    image: "GitHub.svg",
+    width: 75,
+    height: 75,
+  },
+  {
+    skill_name: "VS Code",
+    image: "vscode.svg",
+    width: 75,
+    height: 75,
+  },
+  {
+    skill_name: "Netlify",
+    image: "netlify-icon.svg",
+    width: 75,
+    height: 75,
   },
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
-    description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+    title: "International Airline Passengers — Forecasting",
+    description: "Multi-sheet Excel workbook analysing 1949–1960 airline data. Features SARIMA-driven forecasts, Holt-Winters smoothing, dark-themed KPI dashboard with sparklines.",
+    image: "/Images/Multi Airlines.png",
+    link: "#",
+    category: ["excel"],
+    tags: ["Excel", "Pivot Tables", "Power Query", "Forecasting"],
+    badge: "Advanced Excel"
   },
   {
-    title: "Interactive Cards Portfolio",
-    description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+    title: "Spotify Streaming Intelligence Dashboard",
+    description: "An interactive Spotify analytics dashboard that explores music trends, artist performance, genre popularity, and audio features to uncover data-driven insights into streaming behavior and song success.",
+    image: "/Images/Spotify.png",
+    link: "#",
+    category: ["powerbi"],
+    tags: ["Power BI", "DAX", "Data Modeling", "ETL"],
+    badge: "Advanced Power BI"
   },
   {
-    title: "Space Themed Website",
-    description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+    title: "No Cap, Just Stats: Airbnb Analytics Dashboard",
+    description: "An interactive Airbnb analytics dashboard that uncovers pricing trends, booking insights, host performance, and customer preferences through dynamic visualizations and business intelligence.",
+    image: "/Images/AirBnb.webp",
+    link: "#",
+    category: ["powerbi"],
+    tags: ["Power BI", "DAX", "Drill-Through", "Row-Level Security"],
+    badge: "Airbnb Analytics"
+  },
+  {
+    title: "Workforce Decoded",
+    description: "HR analytics dashboard that explores employee demographics, attrition, performance, and engagement to help organizations make smarter, data-driven workforce decisions.",
+    image: "/Images/HR Analytics .png",
+    link: "#",
+    category: ["powerbi"],
+    tags: ["Power BI", "DAX", "Attrition Analysis", "Power Query"],
+    badge: "HR Analytics"
+  },
+  {
+    title: "Beyond the Runway: Boeing Insights",
+    description: "An end-to-end Boeing capstone analytics project that visualizes aircraft production, supply chain metrics, and business KPIs to support data-driven decision-making in the aerospace industry.",
+    image: "/Images/Boeing.jpeg",
+    link: "#",
+    category: ["python","powerbi","sql","excel"],
+    tags: ["Python", "Power BI", "Power Query", "Data Modeling"],
+    badge: "Capstone In Aerospace Analytics"
+  },
+  {
+    title: "Superstore Business Intelligence Suite — End-to-End Capstone",
+    description: "A comprehensive business intelligence project on 9,994-order Superstore data following the full analytics lifecycle.",
+    image: "/Images/Super Store.png",
+    link: "#",
+    category: ["excel", "sql", "powerbi", "python"],
+    tags: ["Excel", "SQL", "Power BI", "Python"],
+    badge: "Full Stack Analytics"
   },
 ] as const;
 
@@ -286,19 +237,9 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://github.com/Abad-87",
       },
     ],
   },
@@ -306,39 +247,19 @@ export const FOOTER_DATA = [
     title: "Social Media",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://linkedin.com/in/abadmustafa/",
       },
     ],
   },
   {
-    title: "About",
+    title: "Contact",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Email Me",
         icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:abadmustafa280@gmail.com",
       },
     ],
   },
@@ -346,19 +267,31 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "Home",
+    link: "#home",
+  },
+  {
+    title: "About Me",
     link: "#about-me",
   },
   {
-    title: "Skills",
-    link: "#skills",
+    title: "Services",
+    link: "#services",
   },
   {
     title: "Projects",
     link: "#projects",
   },
+  {
+    title: "Tools",
+    link: "#tools",
+  },
+  {
+    title: "Contact",
+    link: "#contact",
+  },
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Abad-87/space-portfolio",
 };
